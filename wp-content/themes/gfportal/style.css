@@ -1,0 +1,384 @@
+/*
+	Theme Name: Guidant Financial Portal
+	Theme URI: https://portal.guidantfinancial.com
+	Author: Adrian Roncevic
+	Author URI: https://www.guidantfinancial.com
+	Description: Guidant Financial Client Portal
+	Version: 1.0
+	Tags: white
+*/
+
+html {
+	position:relative;
+	min-height:100%;
+}
+body {
+	padding:106px 0;
+}
+.ntp {
+	margin-top:0;
+}
+#debug {
+	margin-bottom:4%;
+}
+#main-content {
+	margin:4% 0;
+}
+.glyphicon-info-sign {
+	color: #888;
+	font-size: 22px;
+	cursor: pointer;
+	position: absolute;
+	margin:5px 0 0 -12px;
+}
+.glyphicon-info-sign:hover {
+	color:#000;
+}
+.popover-title {
+	font-weight: bold;
+	font-size: 13px;
+}
+.popover-content {
+	font-size:13px;
+}
+.form-section {
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    padding: 6%
+}
+h4 {
+	margin-top:0;
+}
+.table > thead > tr > th {
+	border-bottom:1px solid #ddd;
+}
+#debug-menu ul {
+	border:1px solid #ccc;
+	width:400px;
+	margin:0;
+	padding:0;
+}
+#debug-menu a {
+	padding:14px;
+	display:block;
+	border-bottom:1px solid #ccc;
+}
+#debug-menu a:hover {
+	background:#f5f5f5;
+}
+#debug-menu li:last-child a {
+	border:none;
+}
+#debug-menu li {
+	list-style:none;
+}
+.single-portal_page #main-content .btn-primary {
+	padding: 10px 48px;
+	font-size:17px;
+}
+.action-modal {
+	background: url('assets/images/ajax/white-transparent.png') 0 0 repeat;
+	vertical-align: middle;
+	display: table;
+    bottom:0;
+    left:0;
+    right:0;
+    top:0;
+    outline:0;
+    overflow:hidden;
+    position:fixed;
+    z-index: 9999;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+}
+.main-link {
+	margin:20px 0 0;
+}
+.action-modal-inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+.login-form {
+	width:420px;
+	border:1px solid #ccc;
+	padding:2%;
+	background: #fff;
+	margin:0 auto 0;
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.action-modal-innter-box {
+	height:160px;
+	width:160px;
+	background: url('assets/images/ajax/dark-black-transparent.png') 0 0 repeat;
+	border-radius:10px;
+	margin:0 auto;
+	color:#fff;
+	text-align:center;
+	font-weight: bold;
+	font-size:16px;
+	padding:46px 0 0;
+}
+.action-modal-state {
+	margin-top:10px;
+}
+.action-modal-wrapper {
+	display:block;
+}
+#header {
+	border-bottom:1px solid #ccc;
+	background:#f5f5f5;
+	padding:22px;
+	height:106px;
+	z-index: 99;
+	position: absolute;
+	top:0;
+	width:100%;
+}
+#footer {
+	border-top:1px solid #ccc;
+	background:#f5f5f5;
+	height:106px;
+	line-height: 106px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	z-index: 99;
+}
+#header .search {
+	margin:13px 0 0;
+}
+#header .search input {
+	width:220px;
+	margin:0 20px 0 0;
+}
+#header .account {
+	margin:4px 0 0;
+}
+.relative {
+	position:relative;
+}
+.form-control-icon {
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    pointer-events: none;
+    position: absolute;
+    right: 22px;
+    text-align: center;
+    top: 0;
+    width: 34px;
+    z-index: 2;
+    color:#bbb;
+    font-size:16px;
+}
+.vcenter-wrapper {
+	vertical-align: middle;
+	display: table;
+    bottom:0;
+    left:0;
+    right:0;
+    top:0;
+    outline:0;
+    overflow:hidden;
+    position:fixed;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+}
+.vcenter {
+	display: table-cell;
+	vertical-align: middle;
+}
+#header .dropdown .btn {
+	text-align:left;
+	border-radius:0;
+	border:0;
+}
+#admin-tools {
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    z-index: 101;
+}
+.admin-tools-toggle,
+.admin-tools-toggle:focus,
+.admin-tools-toggle:active {
+	background:rgba(0, 0, 0, 0.5);
+    border-radius:4px;
+    color:#eee;
+    display:block;
+    margin:0 16px 16px 0;
+    padding:14px 20px 14px 44px;
+    outline:0;
+    text-decoration: none;
+}
+.admin-tools-toggle:hover {
+	color:#fff;
+	background:rgba(0, 0, 0, 1);
+	text-decoration: none;
+}
+.admin-tools-toggle .glyphicon {
+    font-size: 15px;
+    margin: 15px 0 0 -24px;
+    position: absolute;
+    opacity: 0.4;
+}
+.fulfillment-1-tracker {
+	border:1px solid #ccc;
+	background:#f5f5f5;
+	overflow: hidden;
+}
+.fulfillment-1-tracker h3 {
+	margin-top:8px;
+}
+.fulfillment-1-tracker .row {
+	padding:18px 44px;
+	border-bottom:1px solid #ccc;
+}
+.fulfillment-1-tracker .row:last-child {
+	border-bottom:none;
+}
+.fulfillment-1-tracker .index {
+	font-size:34px;
+	font-weight:bold;
+	width:4.5%;
+	float:left;
+}
+.fulfillment-1-tracker .step-description {
+	width:85.5%;
+	float:left;
+}
+.fulfillment-1-tracker .glyphicon {
+	font-size:36px;
+	padding:18px 0px;
+}
+.fulfillment-1-tracker .step-status {
+	width:10%;
+	float:left;
+	margin:25px 0 0;
+}
+.fulfillment-1-tracker .done {
+	color:#fff;
+	background:#666;
+	border-bottom:1px solid #858585;
+}
+.fulfillment-1-tracker .done .step-status
+{
+	margin:0;
+	padding:0;
+}
+.fulfillment-1-tracker .done .glyphicon {
+	margin:3px 19px 8px 0;
+	padding:0;
+}
+.progress {
+	border-radius:0;
+}
+#fileupload {
+	margin-bottom:20px;
+}
+.file-list {
+	margin:26px 0 0;
+	border-color:#ccc;
+}
+.file-list li {
+	list-style:none;
+}
+.file-list .list-group-item .glyphicon {
+	font-size:18px;
+	color:#888;
+}
+.list-group-item:hover .glyphicon {
+	color:#000;
+}
+.so-widget-gf-sharefile-widget .control-label {
+	padding-top:8px;
+}
+.sfile {
+	padding: 10px;
+	background: #f5f5f5;
+	width:100%;
+}
+.sfile-description {
+	margin-top:10px;
+}
+.single-portal_page #main-content .upload-btn {
+	padding:10px 24px;
+	font-size:14px;
+}
+.upload-btn .glyphicon {
+	margin-right:10px;
+	font-size:18px;
+	color:#999;
+}
+.upload-section {
+	border-top:1px solid #ddd;
+	margin-top:50px;
+	padding-top:50px;
+}
+.upload {
+	display:block;
+	clear:both;
+}
+.upload-example {
+	margin-bottom:10px;
+	font-weight: normal;;
+}
+.upload-example .glyphicon {
+	margin:0 8px 15px 0;
+}
+.review-table {
+	width:100%;
+	margin:0;
+}
+.review-table.table td {
+	border:0;
+}
+.panel-review {
+	background:#f5f5f5;
+}
+.panel-review .panel-heading {
+	padding:10px 32px;
+}
+.panel-review .panel-body {
+	padding:23px;
+}
+.answer-text input {
+	margin-top:5px;
+}
+.answer-text strong {
+	margin-left:4px;
+	font-size:18px;
+}
+.answer-description {
+	margin:4px 0 0 4px;
+}
+.answer-vertical {
+	padding:0 0 20px;
+}
+.question-description {
+	margin:0 0 24px;
+}
+.answer-horizontal .answer-text {
+	margin:0 40px 0 0;
+}
+.so-widget-gf-question-widget .radio-toggle {
+	margin:24px 0 0 0;
+	padding:30px;
+	background:#f5f5f5;
+	border-radius:6px;
+}
+.so-widget-gf-question-widget .radio-toggle .radio-toggle {
+	background:#e5e5e5;
+	border-radius:6px;
+}
+#debug h4 label {
+	font-size:12px;
+	font-weight:normal;
+	color:#aaa;
+}
+#debug h4 input {
+	margin:-1px 0 0 -18px;
+	position:absolute;
+}
